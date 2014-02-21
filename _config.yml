@@ -1,3 +1,67 @@
-name: Crewmate
-markdown: redcarpet
-pygments: true
+title:            Crewmate
+tagline:          Management software with a focus on collaboration
+description:      Crewmate workflow is project-centered; each project being visible only to people invited to it. Projects have a status wall, conversations, tasks, shared pages and file uploads. You can even post to everywhere just using email.
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              
+
+# Owner/author information
+owner:
+  name:           Crewmate
+  avatar:         bio-photo.jpg
+  bio:            "Crewmate is a project management software, a community fork of Teambox v3, built on Ruby on Rails with a focus on collaboration.  
+  Crewmate workflow is project-centered; each project being visible only to people invited to it.  
+  Projects have a status wall, conversations, tasks, shared pages and file uploads. You can even post to everywhere just using email.  
+  Crewmate is open-source software, meaning you can also download it, change its code and host yourself."
+  email:          crewmate@crewmate.org
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
+  twitter:        crewmateam
+  github:         crewmate
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:        
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Features
+    url: /features/
+  - title: Setup
+    rl: /setup/
+  - title: Open Source
+    url: /open-source/
+  - title: Articles
+    url: /articles/
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/London
+future:      true
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
